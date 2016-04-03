@@ -1,7 +1,5 @@
 # method-presentations
 
-*assignments TK*
-
 <ul>
   <li><strong>addClass/removeClass</strong> - Harini</li>
   <li><strong>animate</strong> - Michael</li>
