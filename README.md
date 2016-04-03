@@ -3,18 +3,18 @@
 *assignments TK*
 
 <ul>
-  <li>addClass/removeClass - Harini</li>
-  <li>animate - Michael</li>
-  <li>attr - Roshan</li>
-  <li>before/after - Rheaa</li>
-  <li>data - Barbara</li>
-  <li>empty - Erica</li>
-  <li>next/prev - Yuxin</li>
-  <li>on/off - Brandon</li>
-  <li>replace - Everic</li>
-  <li>resize - Kathryn</li>
-  <li>scroll - Kazi</li>
-  <li>slideUp/slideDown - Zameena</li>
-  <li>toggle - Daniela</li>
+  <li><strong>addClass/removeClass</strong> - Harini</li>
+  <li><strong>animate</strong> - Michael</li>
+  <li><strong>attr</strong> - Roshan</li>
+  <li><strong>before/after</strong> - Rheaa</li>
+  <li><strong>data</strong> - Barbara</li>
+  <li><strong>empty</strong> - Erica</li>
+  <li><strong>next/prev</strong> - Yuxin</li>
+  <li><strong>on/off</strong> - Brandon</li>
+  <li><strong>replace</strong> - Everic</li>
+  <li><strong>resize</strong> - Kathryn</li>
+  <li><strong>scroll</strong> - Kazi</li>
+  <li><strong>slideUp/slideDown</strong> - Zameena</li>
+  <li><strong>toggle</strong> - Daniela</li>
   <!-- <li>submit</li> -->
 </ul>
