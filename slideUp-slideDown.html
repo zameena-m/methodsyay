@@ -5,23 +5,34 @@
   <title>Method Presentation - slide</title>
   <style>
   /*YOUR CSS HERE*/
-  h1{ font-family:monospace; }
+  h1{ font-family:monospace;
+    text-align: center;
+   }
+  h2{ font-size: 40px;
+    color: purple;
+    font-family: monospace;
+    text-align: center;
+  }
   </style>
 </head>
 
+
+
 <body>
 
-  <h1>slideUp/slideDown</h1>
-
-  <!--YOUR HTML HERE-->
+  <h1>This is how the slideUp and slideDown methods work:</h1>
+  <h2>Coming up, coming down
+<br>
+ <img src="https://45.media.tumblr.com/bb1e841b72f6129b277c590888ba9f00/tumblr_mntngelvCn1rrd1clo1_500.gif">
+  </h2>
+ 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script>
-  $(document).ready(function(){
+ $(document).ready(function(){
+  $("h2").slideUp(5000);
+ });
 
-    //YOUR CODE HERE
-
-  });
   </script>
 
 </body>
