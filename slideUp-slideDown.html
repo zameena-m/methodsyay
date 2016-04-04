@@ -4,20 +4,28 @@
 <head>
   <title>Method Presentation - slide</title>
   <style>
-  /*YOUR CSS HERE*/
+ 
+
   h1{ font-family:monospace;
     text-align: center;
+    color:#E5A3AD;
    }
   h2{ font-size: 40px;
-    color: purple;
+    color: #66484D;
     font-family: monospace;
     text-align: center;
   }
-  h3 {
+  .log{
     color: gray;
-    font-size:65px;
-  text-align: center;
+    font-size:50px;
+    text-align: center;
+     font-family: monospace;
   }
+
+#button {
+  center
+}
+
   </style>
 </head>
 
@@ -26,21 +34,36 @@
 <body>
 
   <h1>This is how the slideUp and slideDown methods work:</h1>
+  <center>
+   <button id = "up"> Slide Up </button>
+    <button id = "down"> Slide Down</button> 
+  </center>
+
   <h2>Coming up, coming down
 <br>
  <img src="https://45.media.tumblr.com/bb1e841b72f6129b277c590888ba9f00/tumblr_mntngelvCn1rrd1clo1_500.gif">
   </h2>
-
-  <h3>These methods create a sliding effect on elements. You can make an element slide slower or faster by editing the milliseconds an element takes to slide.</h3>
  
+ <div class = "log"></div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 
   <script>
  $(document).ready(function(){
-  $("h2").slideUp(5000);
+
+
+  $("#up").click(function(){
+      $("h2").slideUp(1000, function(){
+    $(".log").text('These methods create a sliding effect on elements. You can make an element slide slower or faster by editing the milliseconds an element takes to slide. So, the speed is one parameter. Another optional parameter is callback, which represents a function to call once the animation is complete. In this case, this text is a callback function. I used buttons for to call slideUp and slideDown, but you can also use slideToggle.');
  });
+});
+      $("#down").click(function(){
+    $("h2").slideDown(1000);
+ });
+  });   
+ 
+
 
   </script>
 
