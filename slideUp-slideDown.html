@@ -22,9 +22,6 @@
      font-family: monospace;
   }
 
-#button {
-  center
-}
 
   </style>
 </head>
@@ -32,6 +29,12 @@
 
 
 <body>
+
+<p align=right>
+ <input type="button" onclick="location.href='http://zameenamejia.com/';"value="Go back to my full page!" /> </p>
+
+
+
 
   <h1>This is how the slideUp and slideDown methods work:</h1>
   <center>
@@ -55,7 +58,7 @@
 
   $("#up").click(function(){
       $("h2").slideUp(1000, function(){
-    $(".log").text('These methods create a sliding effect on elements. You can make an element slide slower or faster by editing the milliseconds an element takes to slide. So, the speed is one parameter. Another optional parameter is callback, which represents a function to call once the animation is complete. In this case, this text is a callback function. I used buttons for to call slideUp and slideDown, but you can also use slideToggle.');
+    $(".log").text('These methods create a sliding effect on elements. You can make an element slide slower or faster by editing the milliseconds an element takes to slide. So, the speed is one parameter. Another optional parameter is callback, which represents a function to call once the animation is complete. In this case, this text is a callback function. I used buttons to call slideUp and slideDown, but you can also use slideToggle.');
  });
 });
       $("#down").click(function(){
